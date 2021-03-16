@@ -4,7 +4,7 @@ int main(){
 float peso , altura, imc;
 printf("\nInforme seu peso em Kg:");
 scanf ("%f",&peso);
-printf("\nInforme sua altura em m:");
+printf("\nInforme sua altura em metros:");
 scanf ("%f",&altura);
 imc = peso / (altura*altura);   
 if (imc <19 ){
